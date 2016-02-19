@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video Mirror</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Ever want to watch the mirrored version of a video? That&#39;s what the site&#39;s for. Paste your URL and enjoy in all its mirrored glory.
 </description>
     <link>http://theadamparker.github.io/video-mirror//</link>
     <atom:link href="http://theadamparker.github.io/video-mirror//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Feb 2016 19:45:55 -0500</pubDate>
-    <lastBuildDate>Thu, 18 Feb 2016 19:45:55 -0500</lastBuildDate>
+    <pubDate>Thu, 18 Feb 2016 20:47:24 -0500</pubDate>
+    <lastBuildDate>Thu, 18 Feb 2016 20:47:24 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>

@@ -53,6 +53,12 @@ $on-laptop:        800px;
 
 .mirror {
   transform: scaleX(-1);
+  width: 100%;
+  display: block;
+
+  iframe {
+    width: 100%;
+  }
 }
 
 .videourl {

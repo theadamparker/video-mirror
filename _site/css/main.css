@@ -449,7 +449,11 @@ pre {
     color: #099; }
 
 .mirror {
-  transform: scaleX(-1); }
+  transform: scaleX(-1);
+  width: 100%;
+  display: block; }
+  .mirror iframe {
+    width: 100%; }
 
 .videourl {
   width: 100%;
