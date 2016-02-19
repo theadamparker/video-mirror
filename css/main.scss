@@ -52,6 +52,8 @@ $on-laptop:        800px;
 ;
 
 .mirror {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
   transform: scaleX(-1);
   width: 100%;
   display: block;
