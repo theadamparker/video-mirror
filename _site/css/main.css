@@ -16,7 +16,7 @@ body {
   line-height: 1.5;
   font-weight: 300;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -175,7 +175,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #fdfdfd;
+      background-color: #fff;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -448,14 +448,33 @@ pre {
   .highlight .il {
     color: #099; }
 
-.mirror {
+body {
+  background: url("../img/concrete_seamless.png") repeat;
+  font-size: 10px; }
+
+p {
+  font-size: 1rem; }
+
+.wrapper {
+  padding-top: 4rem; }
+
+.logo {
+  width: 16rem;
+  transition: .8s all ease; }
+
+.embed {
   width: 100%;
   display: block; }
-  .mirror iframe {
+  .embed iframe {
     width: 100%;
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1); }
+
+.mirror {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1); }
 
 *:-webkit-full-screen,
 *:fullscreen {

@@ -1,8 +1,6 @@
 var button = document.getElementById('flipit');
-//var input = document.getElementById('videourl').value;
 
 var videoEmbed = {
-
 
     invoke: function(){
 
@@ -23,7 +21,6 @@ var videoEmbed = {
            var html = html.replace(pattern1, replacement);
         }
 
-
         if(pattern2.test(html)){
               var replacement = '<iframe width="420" height="345" src="http://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>';
               var html = html.replace(pattern2, replacement);
@@ -41,7 +38,7 @@ var videoEmbed = {
 $scaleVideos = function() {
 
   var $allVideos = $("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com'], object, embed"),
-  $fluidEl = $(".mirror");
+  $fluidEl = $(".embed");
 
 	$allVideos.each(function() {
 
@@ -67,11 +64,19 @@ $scaleVideos = function() {
 
 	}).resize();
 
-}
+};
+
+$flipLogo = function() {
+  $(".logo").removeClass( "mirror" );
+};
 
 $( document ).ready(function() {
+
+  setTimeout( $flipLogo , 1000 )
+
   button.onclick = function() {
     videoEmbed.invoke();
     $scaleVideos();
   };
+
 });
